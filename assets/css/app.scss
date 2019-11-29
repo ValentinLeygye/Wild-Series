@@ -1,0 +1,30 @@
+@import "~bootstrap/scss/bootstrap";
+
+h1 {
+    padding: 2.2rem 0 0 8rem;
+}
+
+#globale-navabar {
+    border: solid;
+    border-color: orange;
+    border-width: 2px;
+    padding: 0 0 0 6%;
+}
+
+$boxe-text-color: #ffff;
+
+#boxe-movies {
+    background-color: rgb(144, 140, 138);
+    color: $boxe-text-color;
+
+}
+
+#boxe-series {
+    background-color: rgb(103, 100, 98);
+    color: $boxe-text-color;
+}
+
+#boxe-categories {
+    background-color: rgb(61, 58, 59);
+    color: $boxe-text-color;
+}
