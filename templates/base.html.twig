@@ -11,9 +11,9 @@
     </head>
     <body>
         <header>
-            {% include 'navbar.html.twig' %}
+            {% include '/wild/navbar.html.twig' %}
         </header>        
-        {% block home %}{% endblock %}
+        {% block show %}{% endblock %}
         {% block body %}{% endblock %}
         {% block javascripts %}
             {{ encore_entry_script_tags('app') }}
