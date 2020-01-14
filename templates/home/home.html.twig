@@ -1,0 +1,8 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+{{ form_start(programForm) }}
+    {{ form_widget(programForm) }}
+    <button type="submit">Ajouter</button>
+{{ form_end(programForm) }}
+{% endblock %}

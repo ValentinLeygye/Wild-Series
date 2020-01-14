@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <p class="program-title">{{ programName }}</P>
+    {% for season in seasons %}
+        <li class="season-number">
+            <a href="{{ path('wild_show_season', {seasonId: season.id}) }}">
+                <b>
+                    Season {{ season.number }}
+                </b>
+            </a>
+        </li>
+        <li>{{ season.description }}</li>
+    {% endfor %}
+{% endblock %}

@@ -4,27 +4,88 @@ h1 {
     padding: 2.2rem 0 0 8rem;
 }
 
+h2 {
+    padding: 2.2rem 0 0 8rem;
+}
+
+.seasons-description {
+    padding: 1.2% 5% 0 5%;
+}
+
+.serie-description {
+    padding: 2% 8% 0 10%;
+}
+
+.program-title {
+    padding-top: 4%;;
+    padding-left: 6%;
+}
+
+.season-number {
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+    padding: 20px;
+}
+
 #globale-navabar {
     border: solid;
     border-color: orange;
     border-width: 2px;
-    padding: 0 0 0 6%;
+    padding: 0 0 0 15%;
+}
+
+.bg-light {
+    background-color: rgb(225, 225, 255)
 }
 
 $boxe-text-color: #ffff;
 
-#boxe-movies {
-    background-color: rgb(144, 140, 138);
-    color: $boxe-text-color;
-
+.boxe-episode {
+    padding: 2vw 5vw 2vw 5vw;
 }
 
-#boxe-series {
-    background-color: rgb(103, 100, 98);
+#navbarSupportedContent {
+    display: flex;    
+}
+
+#boxe-movies {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 8vw;
+    background-color: rgb(140, 140, 140);
+    color: $boxe-text-color;
+}
+
+#link-categories {
     color: $boxe-text-color;
 }
 
 #boxe-categories {
-    background-color: rgb(61, 58, 59);
-    color: $boxe-text-color;
+    border-radius: 5%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 8vw;
+    background-color: rgb(80, 80, 80);
+}
+
+#section-search {
+    color: orange;
+    border-color: orange;
+}
+
+.retour-liste {
+    padding: 1.2vw;
+    margin: 0;
+}
+
+#button-search {
+    margin-top: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    background-color: orange;
+    color: white;
+    border-color: white;
 }

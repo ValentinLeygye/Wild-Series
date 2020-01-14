@@ -1,13 +1,8 @@
 #index:
 #    path: /
-#    controller: App\Controller\WildController::index
-
+#    controller: App\Controller\DefaultController::index
 # config/routes.yaml
-
 # the "wild_index" route name is not important yet
 wild_show_index:
-    path: /wild/
-    controller: App\Controller\WildController::index
-
-
-
+  path: /wild/
+  controller: App\Controller\WildController::index
